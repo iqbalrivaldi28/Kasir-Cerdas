@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "898344889741",
+    "project_id": "kasir-cerdas-1704",
+    "storage_bucket": "kasir-cerdas-1704.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:898344889741:android:ee0452cc186ed907c821c4",
+        "android_client_info": {
+          "package_name": "com.kevinwijaya.kasir_cerdas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "898344889741-m0mlj5oqbbat7f3j5h9h93krejc35tpi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIyHhK3hLIGePIxyQ2S6uyG4aLOG2LAXY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "898344889741-m0mlj5oqbbat7f3j5h9h93krejc35tpi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,66 @@
+name: kasir_cerdas
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+dependencies:
+  cached_network_image: ^3.2.3
+  cloud_firestore: ^4.2.0
+  collection: ^1.16.0
+  firebase_auth: ^4.1.1
+  firebase_core: ^2.4.0
+  firebase_storage: ^11.0.8
+  flutter:
+    sdk: flutter
+  flutter_native_splash: ^2.2.14
+  form_validator: ^1.0.3
+  hive_flutter: ^1.1.0
+  image_picker: ^0.8.6
+  intl: ^0.17.0
+  # open_file: ^3.2.1
+  path_provider: ^2.0.11
+  pdf: ^3.8.4
+  provider: ^6.0.4
+  qr_code_scanner: ^1.0.1
+  share_plus: ^6.3.0
+  screenshot: ^1.2.3
+  lecle_downloads_path_provider: ^0.0.2+8
+  permission_handler: ^10.2.0
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.11.0
+  flutter_lints: ^2.0.1
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:
+  android: 'launcher_icon'
+  ios: false
+  image_path: 'asset/image/logo.png'
+
+flutter:
+  uses-material-design: true
+  assets:
+    - asset/image/
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: asset/font/Inter-Regular.ttf
+        - asset: asset/font/Inter-Medium.ttf
+          weight: 500
+        - asset: asset/font/Inter-Bold.ttf
+          weight: 700
+
+flutter_native_splash:
+  color: '#00A1E4'
+  image: asset/image/logo.png
+
+  android_12:
+    image: asset/image/logo.png
+    color: '#42a5f5'
+
+  ios: false
+  web: false
